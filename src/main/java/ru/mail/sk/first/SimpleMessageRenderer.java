@@ -15,7 +15,7 @@ public class SimpleMessageRenderer implements IMessageRenderer {
 
     @Override
     public void render() {
-        System.out.println(provider.getMesssage());
+        System.out.println(provider.getMessage());
     }
 
 }

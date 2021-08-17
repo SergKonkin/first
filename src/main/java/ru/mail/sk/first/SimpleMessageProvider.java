@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class SimpleMessageProvider implements IMessageProvider {
 
     @Override
-    public String getMesssage() {
+    public String getMessage() {
         return "Hello world";
     }
 

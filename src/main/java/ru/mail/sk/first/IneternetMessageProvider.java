@@ -4,7 +4,7 @@ public class IneternetMessageProvider implements MessageProvider {
 
     @Override
     public String getMesssage() {
-        return "Inet message recieved";
+        return "Internet message recieved";
     }
 
 }

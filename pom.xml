@@ -13,4 +13,22 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <!--
+               Add the Lombok IntelliJ plugin to add lombok support for IntelliJ:
+               Go to File > Settings > Plugins
+               Click on Browse repositories...-
+               Search for Lombok Plugin
+               Click on Install plugin
+               Restart IntelliJ IDEA
+               -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+
+    </dependencies>
+
 </project>

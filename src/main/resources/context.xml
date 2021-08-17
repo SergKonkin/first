@@ -4,7 +4,7 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="provider" class="ru.mail.sk.first.IneternetMessageProvider"/>
+    <bean id="provider" class="ru.mail.sk.first.InternetMessageProvider"/>
     <bean id="renderer" class="ru.mail.sk.first.SimpleMessageRenderer">
         <constructor-arg name="provider" ref="provider"/>
     </bean>

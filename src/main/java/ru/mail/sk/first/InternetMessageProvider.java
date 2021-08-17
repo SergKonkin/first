@@ -1,6 +1,6 @@
 package ru.mail.sk.first;
 
-public class IneternetMessageProvider implements IMessageProvider {
+public class InternetMessageProvider implements IMessageProvider {
 
     @Override
     public String getMesssage() {

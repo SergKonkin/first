@@ -1,10 +1,10 @@
 package ru.mail.sk.first;
 
-public class IneternetMessageProvider implements MessageProvider {
+public class IneternetMessageProvider implements IMessageProvider {
 
     @Override
     public String getMesssage() {
-        return "Internet message recieved";
+        return "Internet message received";
     }
 
 }

@@ -1,6 +1,6 @@
 package ru.mail.sk.first;
 
-public interface MessageProvider {
+public interface IMessageProvider {
 
     String getMesssage();
 

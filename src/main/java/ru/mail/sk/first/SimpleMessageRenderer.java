@@ -4,12 +4,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component("renderer")
-public class SimpleMessageRenderer implements MessageRenderer {
+public class SimpleMessageRenderer implements IMessageRenderer {
 
-    private MessageProvider provider;
+    private IMessageProvider provider;
 
     @Autowired
-    public SimpleMessageRenderer(MessageProvider provider) {
+    public SimpleMessageRenderer(IMessageProvider provider) {
         this.provider = provider;
     }
 

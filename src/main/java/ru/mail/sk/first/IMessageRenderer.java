@@ -1,6 +1,6 @@
 package ru.mail.sk.first;
 
-public interface MessageRenderer {
+public interface IMessageRenderer {
 
     void render();
 

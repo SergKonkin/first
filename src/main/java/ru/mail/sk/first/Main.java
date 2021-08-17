@@ -13,7 +13,7 @@ public class Main {
 
         ApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class);
 
-        MessageRenderer renderer = context.getBean("renderer", MessageRenderer.class);
+        IMessageRenderer renderer = context.getBean("renderer", IMessageRenderer.class);
         renderer.render();
 
     }
